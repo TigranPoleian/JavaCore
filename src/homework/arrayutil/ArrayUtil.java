@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayUtil {
     public static void main(String[] args) {
-        int array[] = {2, 5, 8, 10, 32, 22, 11, 66, 12, 30};
+        int array[] = {2, 5, 8, 10, 32, 22, 11, 66, 12, 30}; //comment
 
 //      Տպեք մասիվի բոլոր էլեմենտները
         System.out.print("Bolor elementner = ");
