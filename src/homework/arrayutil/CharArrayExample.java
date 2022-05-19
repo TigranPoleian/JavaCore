@@ -51,6 +51,7 @@ public class CharArrayExample {
         System.out.print("Ճիշտ պատասխանն է--> " + d);
         System.out.println();
 
+
         //պետք է տպել մասիվի այն սինվոլները որոնք պռաբել չեն.
         System.out.print("Ճիշտ պատասխան--> ");
         char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
