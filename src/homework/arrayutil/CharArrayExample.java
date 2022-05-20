@@ -19,20 +19,21 @@ public class CharArrayExample {
 //    պետք է գրել կոդ, որը կտպի մեջտեղի 2 սինվոլները
         System.out.print("Մեջտեղի 2 սիմվոլնեռը--> ");
         char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-        for (int i = 0; i < chars2.length; i++) {
-        }
-        int Count = chars2.length / 2;
-        System.out.print(chars2[Count] + "," + chars2[Count - 1]);
+        for (int i = 0; i < chars2.length; i++) ;
+        int count = chars2.length / 2;
+        System.out.print(chars2[count] + "," + chars2[count - 1]);
+
 
         //պետք է տպենք true եթե մեր մասիվը վերջանում է ly-ով, եթե ոչ՝ false
         System.out.println();
-        char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y',};
-        boolean a = true;
+        char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y'};
         boolean b = false;
-        if (chars3[chars3.length - 1] == 'y' && chars3[chars3.length - 2] == 'l') {
-            System.out.print("Ճիշտ պատասխանն է--> " + a);
-        } else
-            System.out.print("Սխալ պատասխանն է--> " + b);
+            if (chars3[chars3.length - 1] == 'y' && chars3[chars3.length - 2] == 'l') {
+                b = true;
+            } else
+             b = false;
+
+      System.out.print("Ճիշտ պատասխանն է--> " + b);
 
         //Տպում ենք true եթե տեքստը պարունակում է bob բառը,
         // բայց o-ի տեղը կարող է լինել ցանկացած սինվոլ։
@@ -57,10 +58,8 @@ public class CharArrayExample {
         char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
         for (int i = 0; i < text.length; i++) {
             if (text[i] != ' ')
-            System.out.print(text[i]);
+                System.out.print(text[i]);
         }
-
-
 
 
     }
