@@ -46,8 +46,7 @@ public class CharArrayExample {
             if (bobArray[i] == f && bobArray[i + 2] == f) {
                 d = true;
                 break;
-            } else
-                d = false;
+            }
         }
         System.out.print("Ճիշտ պատասխանն է--> " + d);
         System.out.println();
