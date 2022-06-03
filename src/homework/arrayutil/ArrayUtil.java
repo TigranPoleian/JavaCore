@@ -88,6 +88,6 @@ public class ArrayUtil {
         for (int i = 0; i < array.length; i++) {
             gumar += array[i];
         }
-        System.out.println("gumar = " + gumar);
+        System.out.println("Գումարը = " + gumar);
     }
 }
