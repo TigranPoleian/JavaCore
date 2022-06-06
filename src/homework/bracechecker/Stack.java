@@ -1,4 +1,4 @@
-package homework.arrayutil;
+package homework.bracechecker;
 
 public class Stack {
     int stck[] = new int[10];

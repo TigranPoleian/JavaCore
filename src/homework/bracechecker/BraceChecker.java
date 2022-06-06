@@ -1,4 +1,4 @@
-package homework.arrayutil;
+package homework.bracechecker;
 
 public class BraceChecker {
     //Գրել ծրագիր որը կստուգի տրված տեքստի մեջ փակագծերի դասավորությունը։ Փակագծերի տեսակները 3ն են։ {, [, (
@@ -15,11 +15,7 @@ public class BraceChecker {
             char a;
             switch (c) {
                 case '(':
-                    stack.push(c);
-                    break;
                 case '{':
-                    stack.push(c);
-                    break;
                 case '[':
                     stack.push(c);
                     break;
@@ -35,14 +31,12 @@ public class BraceChecker {
                         System.out.println("Error: " + i + " opened " + a + " but closed " + c);
                     }
                     break;
-                    case ']':
+                case ']':
                     a = (char) stack.pop();
                     if (a != '[') {
                         System.out.println("Error: " + i + " opened " + a + " but closed " + c);
                     }
                     break;
-
-
             }
         }
     }
